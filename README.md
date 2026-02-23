@@ -1,5 +1,3 @@
-# ReadAble
-
 ReadAble is an accessibility-focused AI web app that simplifies complex text, generates bullet summaries, estimates reading level, translates output, and supports text-to-speech controls.
 
 ## Tech Stack
