@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply m-0 text-readable-ink font-sans antialiased;
+  background-color: #d9dbff;
+}
+
+.card {
+  @apply rounded-2xl border bg-readable-card p-5 shadow-sm;
+  border-color: #4015eb;
+}
+
+.focus-ring {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-readable-accent focus-visible:ring-offset-2;
+}
+
+.low-stimulation * {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+.bg-black .card {
+  border-color: #4015eb;
+  background-color: #0a0a0a;
+  color: #fef9c3;
+}
+
+.bg-black input,
+.bg-black textarea,
+.bg-black select {
+  border-color: #4015eb;
+  background-color: #171717;
+  color: #b6c1ff;
+}
+
+.bg-black button {
+  color: inherit;
+  /* color: #964520 */
+}
+
